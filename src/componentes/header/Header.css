@@ -57,3 +57,8 @@ header nav ul li a{
     color:white; 
     box-shadow: #c3dce6 0px 2px 5px -1px, 0px 1px 3px -1px;
 }
+
+a:hover{
+    color: rgb(86, 148, 184);
+    transition: 1s;
+}
