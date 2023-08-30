@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Preahvihear&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.foto{
+    height: 248px;
+    width: 248px;
+    background-size: 100%;
+}
+
+.quadro{
+    border: 4px solid #5fd2f5;
+    margin-top: 20px;
+    display: flex;
+}
+
+.titulo{
+    margin-left: 20px;
+    color: rgb(2, 123, 145) ;
+    font-family: 'Cinzel', serif;
+}
+
+.texto1{
+    font-family: 'MuseoModerno', cursive;
+    color: rgb(2, 123, 145) ;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.boxTexto{
+    display: flex;
+    flex-direction: column;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: #5fd2f5;
+    box-shadow: 0 0 25px rgb(162, 241, 255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(162, 241, 255),
+                0 0 25px rgb(162, 241, 255),
+                0 0 50px rgb(162, 241, 255),
+                0 0 100px rgb(162, 241, 255);
+  }
+
+  .trabalhos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 26px;
+    margin-top: 60px;
+    background: url('../../assets/Desktop1.png');
+    height: 330px;
+    width: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .boxes{
+    display: flex;
+  }
+
+  .card2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 26px;
+    margin-top: 60px;
+    background: url('../../assets/MacBookPro5.png');
+    height: 330px;
+    width: 600px;
+    background-size: 109%;
+    background-repeat: no-repeat;
+  }
+
+  .card3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 26px;
+    margin-top: 60px;
+    background: url('../../assets/MacBookPro7.png');
+    height: 330px;
+    width: 600px;
+    background-size: 109%;
+    background-repeat: no-repeat;
+  }

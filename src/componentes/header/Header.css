@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Preahvihear&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 
 body{
     background-color: white;
 }
 
 header{
-   
     font-family: 'MuseoModerno', cursive;
     background-color: #79E4FF;
     display: flex;
@@ -62,3 +63,4 @@ a:hover{
     color: rgb(86, 148, 184);
     transition: 1s;
 }
+
