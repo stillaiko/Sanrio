@@ -62,39 +62,59 @@
     justify-content: center;
   }
 
-  .card1{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 26px;
-    margin-top: 60px;
-    background: url('../../assets/Desktop1.png');
-    height: 330px;
-    width: 600px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+  .content_main{
+    padding: 15px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 100px;
+    row-gap: 60px;
+    justify-content: center;
 
-  .boxes{
-    display: flex;
-  }
+}
 
-  .card2{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 26px;
-    margin-top: 60px;
-    background: url('../../assets/MacBookPro5.png');
-    height: 330px;
-    width: 600px;
-    background-size: 109%;
-    background-repeat: no-repeat;
-  }
+.barrapesquisa{
+  height: 30px;
+  width: 300px;
+  border: 1px solid #b1b1b1;
+  border-radius: 6px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
 
-  .card3{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 26px;
-    margin-top: 60px;
-    background: url('../../assets/MacBookPro7.png');
-    height: 330px;
-    width: 600px;
-    background-size: 109%;
-    background-repeat: no-repeat;
-  }
+.barrapesquisa:focus-visible{
+outline: 1px solid rgb(76, 192, 228);
+}
+
+.pesquisa{
+  padding: 15px 100px;
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 28px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: #79E4FF;
+  box-shadow: 0 0 25px #79E4FF;
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(167, 215, 255),
+              0 0 25px rgb(167, 215, 255),
+              0 0 50px rgb(167, 215, 255),
+              0 0 100px rgb(167, 215, 255);
+}
+
+.texto_digitado{
+  color: rgb(2, 123, 145) ;
+  font-family: 'Cinzel', serif;
+}
