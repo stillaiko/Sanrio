@@ -1,5 +1,6 @@
 import './Header.css'
 import logo from '../../assets/logo sanrio branca.png'
+import {Link} from 'react-router-dom'
 
 function Header(){
     return(
@@ -11,10 +12,10 @@ function Header(){
 
             <nav>
                 <ul>
-                    <li><a href="">DESINGS</a></li>
-                    <li><a href="">CONTATO</a></li>
-                    <li><a href="">SOBRE MIM</a></li>
-                    <li><a href="">FEEDBACKS</a></li>
+                    <li><Link to="/">DESINGS</Link></li>
+                    <li><Link to="/contato">CONTATO</Link></li>
+                    <li><Link to="/">SOBRE MIM</Link></li>
+                    <li><Link to="/">FEEDBACKS</Link></li>
                 </ul>
             </nav>
            

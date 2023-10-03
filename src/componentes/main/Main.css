@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Preahvihear&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+
+
 .foto{
     height: 248px;
     width: 248px;
@@ -69,7 +71,7 @@
     column-gap: 100px;
     row-gap: 60px;
     justify-content: center;
-
+  
 }
 
 .barrapesquisa{
@@ -118,3 +120,4 @@ outline: 1px solid rgb(76, 192, 228);
   color: rgb(2, 123, 145) ;
   font-family: 'Cinzel', serif;
 }
+

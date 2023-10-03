@@ -1,0 +1,93 @@
+.card {
+    text-shadow: 2px 2px 4px rgb(184, 201, 199);
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: 250px;
+    background-color: #4ad5ff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .icon {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #97e8eb 0%, hsl(188, 74%, 92%) 40%, #ffffff47 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+  }
+  
+  .icon svg {
+    fill: white;
+  }
+  
+  .card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .card:hover {
+    height: 270px;
+  }
+  
+  .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+  }
+  
+  .card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover .icon svg path {
+    fill: url('#gradientColor');
+    transition: all 0.3s ease;
+  }
+
+  .cards{
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
