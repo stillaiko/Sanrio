@@ -106,8 +106,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 440px;
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
@@ -119,13 +119,14 @@
   
   .title1 {
     font-size: 28px;
-    color: royalblue;
+    color: #4ad5ff;
     font-weight: 600;
     letter-spacing: -1px;
     position: relative;
     display: flex;
     align-items: center;
     padding-left: 30px;
+    margin-top: 40px;
   }
   
   .title1::before,.title1::after {
@@ -135,13 +136,13 @@
     width: 16px;
     border-radius: 50%;
     left: 0px;
-    background-color: royalblue;
+    background-color: #4ad5ff;
   }
   
   .title1::before {
     width: 18px;
     height: 18px;
-    background-color: royalblue;
+    background-color: #4ad5ff;
   }
   
   .title1::after {
@@ -162,10 +163,11 @@
   
   .form label .input {
     width: 100%;
-    padding: 10px 1px 20px 10px;
+    padding: 15px 1px 20px 10px;
     outline: 0;
     border: 1px solid rgba(105, 105, 105, 0.397);
     border-radius: 10px;
+    font-size: 19px;
   }
   
   .form label .input + span {
@@ -184,7 +186,7 @@
   }
   
   .form label .input:focus + span,.form label .input:valid + span {
-    top: 30px;
+    top: 44px;
     font-size: 0.9em;
     font-weight: 600;
   }
@@ -196,7 +198,7 @@
   .submit {
     border: none;
     outline: none;
-    background-color: royalblue;
+    background-color: #4ad5ff;
     padding: 10px;
     border-radius: 10px;
     color: #fff;
@@ -211,6 +213,9 @@
     background-color: rgb(56, 90, 194);
   }
   
+  .c{
+    color: black;
+  }
 
   @keyframes pulse {
     from {
@@ -223,3 +228,4 @@
       opacity: 0;
     }
   }
+

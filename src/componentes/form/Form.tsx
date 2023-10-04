@@ -1,6 +1,32 @@
 import './Form.css'
+import { useState } from 'react'
 
 export default function Form(){
+
+  const [fistname,setFist] = useState("")
+  function Nome1(e:React.ChangeEvent<HTMLInputElement>){
+    console.log(e.target.value)
+    setFist(e.target.value)
+    }
+
+    const [lastname,setLast] = useState("")
+    function Nome2(e:React.ChangeEvent<HTMLInputElement>){
+      console.log(e.target.value)
+      setLast(e.target.value)
+      }
+
+    const [email,setEmail] = useState("")
+    function Email(e:React.ChangeEvent<HTMLInputElement>){
+      console.log(e.target.value)
+      setEmail(e.target.value)
+      }
+
+    const [mensagem,setMensagem] = useState("")
+    function Mensagem(e:React.ChangeEvent<HTMLInputElement>){
+      console.log(e.target.value)
+      setMensagem(e.target.value)
+      }
+
     return(
        <>
        <main className='f'>
@@ -59,27 +85,37 @@ export default function Form(){
     <p className="title1">Contact Me</p>
         <div className="flex">
         <label>
-            <input placeholder="" type="text" className="input"/>
+            <input placeholder="" type="text" className="input" onChange={Nome1}/>
             <span>Firstname</span>
         </label>
 
         <label>
-            <input placeholder="" type="text" className="input"/>
+            <input placeholder="" type="text" className="input" onChange={Nome2}/>
             <span>Lastname</span>
         </label>
     </div>  
             
     <label>
-        <input  placeholder="" type="text" className="input"/>
+        <input  placeholder="" type="text" className="input" onChange={Email}/>
         <span>Email</span>
     </label> 
         
     <label>
-        <input placeholder="" type="text" className="input"/>
+        <input placeholder="" type="text" className="input" onChange={Mensagem}/>
         <span>Mensagem</span>
     </label>
     <button className="submit">Submit</button>
 </form>
+
+<div className='cut'>
+<p className='c'>Print</p>
+<div>
+<p className='texto_digitado'> Fistname: {fistname}</p>
+<p className='texto_digitado'> Lastname: {lastname}</p>
+<p className='texto_digitado'> Email: {email}</p>
+<p className='texto_digitado'> Mensagem: {mensagem}</p>
+</div>
+</div>
 
 </main>
        </>
