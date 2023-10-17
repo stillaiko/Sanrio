@@ -74,11 +74,15 @@ footer{
 .twin2{
     background-size: 50%;
     background-repeat: no-repeat;
-    margin-left: 460px;
+    margin-left: 69
+    0px;
 }
 
 .box{
     display: flex;
-
 }
 
+nav{
+    display: flex;
+    flex-direction: column;
+}

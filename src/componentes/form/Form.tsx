@@ -81,6 +81,7 @@ export default function Form(){
 
 </div>
 
+<div className='f2'>
 <form className="form">
     <p className="title1">Contact Me</p>
         <div className="flex">
@@ -106,6 +107,7 @@ export default function Form(){
     </label>
     <button className="submit">Submit</button>
 </form>
+</div>
 
 <div className='cut'>
 <p className='c'>Print</p>

@@ -102,20 +102,7 @@
     flex-direction: column;
   }
 
-  .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 500px;
-    height: 440px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 20px;
-    position: relative;
-    align-self: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
-  }
+  
   
   .title1 {
     font-size: 28px;
@@ -229,3 +216,22 @@
     }
   }
 
+.f2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  align-self: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
